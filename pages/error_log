@@ -1,0 +1,5 @@
+[09-Jan-2019 23:40:38 Europe/Belgrade] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tweenart/public_html/pages/mail.php:7) in /home2/tweenart/public_html/pages/mail.php on line 39
+[09-Jan-2019 23:43:52 Europe/Belgrade] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tweenart/public_html/pages/mail.php:37) in /home2/tweenart/public_html/pages/mail.php on line 38
+[09-Jan-2019 23:44:51 Europe/Belgrade] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tweenart/public_html/pages/mail.php:37) in /home2/tweenart/public_html/pages/mail.php on line 38
+[09-Jan-2019 23:45:59 Europe/Belgrade] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tweenart/public_html/pages/mail.php:37) in /home2/tweenart/public_html/pages/mail.php on line 38
+[13-Jan-2019 23:53:01 Europe/Belgrade] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/tweenart/public_html/pages/mail.php:7) in /home2/tweenart/public_html/pages/mail.php on line 39
