@@ -640,3 +640,19 @@ div.wrapper h6 {
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 1000px) {
+    #featured_intro .fl_left {
+        width: 100%;
+        text-align: center;
+    }
+    #featured_intro .fl_right {
+        width: 100%;
+        text-align: center;
+    }
+    #footer .footbox {
+        width: 45%;
+    }
+}
+
+@media (max-width: 992px) {}
