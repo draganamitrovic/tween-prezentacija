@@ -85,7 +85,7 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #999999;
     background-color: #151515;
-    width: 100vw;
+    width: unset !important;
 }
 
 .justify {
@@ -153,7 +153,7 @@ img {
 }
 
 .imgr {
-    margin: 0 0 8px 8px;
+    margin: 5px 0 8px 8px;
     clear: right;
 }
 
@@ -173,7 +173,7 @@ div.wrapper h3,
 div.wrapper h4,
 div.wrapper h5,
 div.wrapper h6 {
-    margin: 0 0 15px 0;
+    margin: 0 0 15px 15px;
     padding: 0;
     font-size: 2rem;
     font-weight: normal;
@@ -255,7 +255,7 @@ div.wrapper h6 {
 #header .fl_left {
     display: block;
     float: left;
-    margin-top: 17px;
+    margin: 15px 0 0 5px;
     overflow: hidden;
 }
 
@@ -278,7 +278,7 @@ div.wrapper h6 {
 }
 
 #header h1 a {
-    font-size: 3.3rem;
+    font-size: 3.2rem;
     color: #E60498;
     background-color: #000000;
 }
@@ -384,6 +384,59 @@ div.wrapper h6 {
 
 #container {
     padding: 20px 0;
+}
+
+.gallery a {
+    width: 31%;
+    padding: 10px;
+    float: left;
+    min-height: 492px;
+}
+
+.gallery a img {
+    width: 100%;
+    padding-top: 0px;
+}
+
+@media (max-width: 992px) {
+    .gallery a {
+        height: 488px;
+    }
+}
+
+@media (max-width: 856px) {
+    .gallery a {
+        height: 650px;
+        width: 47%
+    }
+}
+
+@media (max-width: 770px) {
+    .gallery a {
+        height: 600px;
+        width: 47%
+    }
+}
+
+@media (max-width: 660px) {
+    .gallery a {
+        height: 500px;
+        width: 46%
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery a {
+        height: 300px;
+        width: 46%
+    }
+}
+
+@media (max-width: 550px) {
+    .gallery a {
+        height: unset;
+        width: 94%
+    }
 }
 
 #content {
@@ -519,6 +572,12 @@ div.wrapper h6 {
     margin: 0 0 10px 0;
     padding: 4px;
     border: 1px solid #666666;
+}
+
+@media (max-width: 1000px) {
+    .facebook {
+        display: none !important;
+    }
 }
 
 /* Featured Block */
@@ -694,6 +753,8 @@ div.wrapper h6 {
     padding: 0;
 }
 
+/* media query */
+
 @media (max-width: 1000px) {
     #featured_intro .fl_left {
         width: 100%;
@@ -702,6 +763,16 @@ div.wrapper h6 {
     #featured_intro .fl_right {
         width: 100%;
         text-align: center;
+    }
+    .bio-content {
+        width: 100% !important;
+    }
+    .bio-content div {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .bio-content div p {
+        font-size: 1.2rem;
     }
 }
 
