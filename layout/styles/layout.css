@@ -70,7 +70,7 @@ html {
 .form-area {
     background-color: #FAFAFA;
     padding: 10px 40px 60px;
-    margin: 10px 0px 60px;
+    margin: 15px 15px 60px;
     border: 1px solid GREY;
 }
 
@@ -263,7 +263,6 @@ div.wrapper h6 {
     display: block;
     float: right;
     width: 468px;
-    height: 60px;
     margin-top: 21px;
     overflow: hidden;
 }
@@ -398,6 +397,22 @@ div.wrapper h6 {
     padding-top: 0px;
 }
 
+.slike-wide {
+    width: 63% !important;
+}
+
+.video-container div {
+    padding-left: 15px;
+}
+
+.video-container div h1 {
+    margin-left: 0px;
+}
+
+.video-container div p {
+    text-align: justify;
+}
+
 @media (max-width: 992px) {
     .gallery a {
         height: 488px;
@@ -408,6 +423,9 @@ div.wrapper h6 {
     .gallery a {
         height: 650px;
         width: 47%
+    }
+    .slike-wide {
+        width: 94% !important;
     }
 }
 
