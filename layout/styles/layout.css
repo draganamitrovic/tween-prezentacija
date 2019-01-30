@@ -444,7 +444,6 @@ div.wrapper h6 {
     width: 31%;
     padding: 10px;
     float: left;
-    min-height: 492px;
 }
 
 .gallery a img {
@@ -470,21 +469,24 @@ div.wrapper h6 {
 
 @media (max-width: 992px) {
     .gallery a {
-        height: 488px;
+        height: auto;
     }
 }
 
 @media (max-width: 856px) {
-    .gallery a {
+    /* .gallery a {
         height: 650px;
         width: 47%
-    }
+    } */
     .slike-wide {
         width: 94% !important;
     }
+    .slike-small {
+        width: 45% !important;
+    }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .gallery a {
         height: 600px;
         width: 47%
@@ -503,12 +505,11 @@ div.wrapper h6 {
         height: 300px;
         width: 46%
     }
-}
+} */
 
-@media (max-width: 550px) {
-    .gallery a {
-        height: unset;
-        width: 94%
+@media (max-width: 399px) {
+    .slike-small {
+        width: 43% !important;
     }
 }
 
@@ -581,6 +582,16 @@ div.wrapper h6 {
     float: right;
     border: 1px solid #EEEEEE;
     margin: 0 0 0 10px;
+}
+
+/* kontakt form */
+
+#submit {
+    border-color: white;
+}
+
+#submit:focus {
+    outline: unset;
 }
 
 /* ----------------------------------------------Column------------------------------------- */
