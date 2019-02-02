@@ -21,20 +21,6 @@ body:after {
     grid-template-rows: 50% 50%;
 }
 
-@media (max-width: 600px) {
-    .wrap {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25%;
-    }
-    .blocks {
-        margin-bottom: 20px !important;
-    }
-    .blocks-video {
-        height: 350px;
-    }
-}
-
 body.lb-disable-scrolling {
     overflow: hidden;
 }
