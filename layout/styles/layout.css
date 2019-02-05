@@ -280,6 +280,11 @@ div.wrapper h6 {
     font-size: 3.2rem;
     color: #E60498;
     background-color: #000000;
+    font-weight: bold;
+}
+
+#header h1 a:hover {
+    text-decoration: none !important;
 }
 
 #header .fl_left p {
@@ -440,54 +445,6 @@ div.wrapper h6 {
     padding: 20px 0;
 }
 
-.gallery a {
-    width: 31%;
-    padding: 10px;
-    float: left;
-}
-
-.gallery a img {
-    width: 100%;
-    padding-top: 0px;
-}
-
-.slike-wide {
-    width: 63% !important;
-}
-
-.video-container div {
-    padding-left: 15px;
-}
-
-.video-container div h1 {
-    margin-left: 0px;
-}
-
-.video-container div p {
-    text-align: justify;
-}
-
-@media (max-width: 992px) {
-    .gallery a {
-        height: auto;
-    }
-}
-
-@media (max-width: 856px) {
-    .slike-wide {
-        width: 94% !important;
-    }
-    .slike-small {
-        width: 45% !important;
-    }
-}
-
-@media (max-width: 399px) {
-    .slike-small {
-        width: 43% !important;
-    }
-}
-
 #content {
     display: block;
     float: left;
@@ -557,6 +514,73 @@ div.wrapper h6 {
     float: right;
     border: 1px solid #EEEEEE;
     margin: 0 0 0 10px;
+}
+
+/* slike gallery */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-single a img {
+    width: 100%;
+}
+
+.slike-wide {
+    display: flex;
+    width: 62%;
+    padding: 1%;
+}
+
+.slike-small {
+    display: flex;
+    width: 31%;
+    padding: 1%;
+}
+
+@media (max-width: 768px) {
+    .slike-wide {
+        width: 98%;
+    }
+    .slike-small {
+        width: 48%
+    }
+}
+
+@media (max-width: 425px) {
+    .slike-small {
+        width: 98%
+    }
+}
+
+/* ikone gallery */
+
+.ikone {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-ikona {
+    display: flex;
+    width: 31%;
+    padding: 1%;
+}
+
+.single-ikona a img {
+    width: 100%
+}
+
+@media (max-width: 768px) {
+    .single-ikona {
+        width: 48%;
+    }
+}
+
+@media (max-width: 425px) {
+    .single-ikona {
+        width: 98%;
+    }
 }
 
 /* video galery */
@@ -916,4 +940,8 @@ div.wrapper h6 {
     #footer .footbox {
         width: 88%
     }
+}
+
+a:hover {
+    text-decoration: none;
 }
